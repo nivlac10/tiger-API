@@ -131,12 +131,12 @@ trait PrivateGamesTrait
                 $loseLength = $game->loseLength;
             }
 
-            $winResults = array_slice($winResults, 0, $winLength);
+            //$winResults = array_slice($winResults, 0, $winLength);
             $loseResults = array_slice($loseResults, 0, $loseLength);
 
             $possibleResults = array_merge($winResults, $loseResults);
             shuffle($possibleResults);
-            $result = $possibleResults[0];
+            $result = $winResults[0];
 
 
             $changeBonus = 'balance';
@@ -154,7 +154,7 @@ trait PrivateGamesTrait
                     $wallet->decrement('balance_bonus', $bet);
                 }
             }
-
+            
             $winAmount = $cpl * $amount * $result[PAYOUT]; // valor do premio
 
             $result[ACTIVELINES][0]["win_amount"] = $winAmount;

@@ -19,14 +19,13 @@ class FortuneTigerLose
             ],
 
             [
-                ["Symbol_5", "Symbol_1", "Symbol_3", "Symbol_1", "Symbol_4", "Symbol_6", "Symbol_3", "Symbol_6", "Symbol_1"], [], [], [], 1, 0
+                ["Symbol_5", "Symbol_1", "Symbol_3", "Symbol_1", "Symbol_4", "Symbol_6", "Symbol_3", "Symbol_6", "Symbol_1"], [], [], [], 1, 0 //hit x1
             ],
-
             [
                 ["Symbol_5", "Symbol_2", "Symbol_3", "Symbol_6", "Symbol_3", "Symbol_1", "Symbol_5", "Symbol_1", "Symbol_4"], [], [], [], 1, 0
             ],
             [
-                ["Symbol_3", "Symbol_6", "Symbol_5", "Symbol_1", "Symbol_6", "Symbol_6", "Symbol_6", "Symbol_5", "Symbol_0"], [], [], [], 1, 0
+                ["Symbol_3", "Symbol_6", "Symbol_5", "Symbol_1", "Symbol_6", "Symbol_6", "Symbol_6", "Symbol_5", "Symbol_0"], [], [], [], 1, 0 //hit x1
             ],
             [
                 ["Symbol_2", "Symbol_1", "Symbol_4", "Symbol_5", "Symbol_3", "Symbol_6", "Symbol_5", "Symbol_3", "Symbol_1"], [], [], [], 1, 0
@@ -38,7 +37,7 @@ class FortuneTigerLose
                 ["Symbol_2", "Symbol_1", "Symbol_4", "Symbol_2", "Symbol_6", "Symbol_2", "Symbol_1", "Symbol_5", "Symbol_3"], [], [], [], 1, 0
             ],
             [
-                ["Symbol_6", "Symbol_1", "Symbol_5", "Symbol_3", "Symbol_1", "Symbol_3", "Symbol_3", "Symbol_6", "Symbol_3"], [], [], [], 1, 0
+                ["Symbol_6", "Symbol_1", "Symbol_5", "Symbol_3", "Symbol_1", "Symbol_3", "Symbol_3", "Symbol_6", "Symbol_3"], [], [], [], 1, 0 //hit x1
             ],
             [
                 ["Symbol_3", "Symbol_4", "Symbol_4", "Symbol_4", "Symbol_4", "Symbol_3", "Symbol_5", "Symbol_1", "Symbol_5"], [], [], [], 1, 0
@@ -65,7 +64,7 @@ class FortuneTigerLose
                 ["Symbol_6", "Symbol_0", "Symbol_1", "Symbol_3", "Symbol_4", "Symbol_2", "Symbol_3", "Symbol_2", "Symbol_1"], [], [], [], 1, 0
             ],
             [
-                ["Symbol_3", "Symbol_6", "Symbol_5", "Symbol_5", "Symbol_3", "Symbol_4", "Symbol_5", "Symbol_2", "Symbol_2"], [], [], [], 1, 0
+                ["Symbol_3", "Symbol_6", "Symbol_5", "Symbol_5", "Symbol_3", "Symbol_4", "Symbol_5", "Symbol_2", "Symbol_2"], [], [], [], 1, 0 //hit
             ],
 
         ];

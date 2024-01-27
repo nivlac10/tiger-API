@@ -25,35 +25,33 @@ class FortunetigerController extends Controller
             "num_line"          => 5,
             "line_num"          => 5,
             "bet_amount"        => 0.2,
-            "free_num"          => 0,
-            "free_total"        => -1,
-            "free_amount"       => 4,
-            "free_multi"        => 0,
-            "freespin_mode"     => 0,
+            "free_num"          => 10,
+            "free_total"        => 100,
+            "free_amount"       => 1,
+            "free_multi"        => 1,
+            "freespin_mode"     => 1,
             "credit_line"       => 1,
             "buy_feature"       => 50,
             "buy_max"           => 1300,
             "total_way"         => 27,
-            "multiply"          => 0,
+            "multiply"          => 2,
             "previous_session"  => false,
             "game_state"        => "",
         ];
 
 
         $multipleList = [
-
         ];
 
         $iconData = [
-            "Symbol_2",
+            "Symbol_0",
             "Symbol_1",
+            "Symbol_2",
             "Symbol_3",
             "Symbol_4",
-            "Symbol_6",
             "Symbol_5",
-            "Symbol_4",
-            "Symbol_4",
-            "Symbol_4"
+            "Symbol_6",
+            "Symbol_7"
         ];
 
         $activeLines = [
@@ -100,8 +98,8 @@ class FortunetigerController extends Controller
             "cpl"       => $request->cpl,
             "betamount" => $request->betamount,
             "num_line"  => $request->numline,
-            "jackpot"   => 0,
-            "free_spin" => 0,
+            "jackpot"   => 1,
+            "free_spin" => 1,
             "free_num"  => 0,
             "scaler"    => 0,
             "freemode"  => false,
@@ -112,11 +110,11 @@ class FortunetigerController extends Controller
             "FreeSpin"          => 0,
             "LastMultiply"      => 0,
             "WildFixedIcons"    => [],
-            "HasJackpot"        => false,
-            "HasScatter"        => false,
-            "CountScatter"      => 0,
+            "HasJackpot"        => true,
+            "HasScatter"        => true,
+            "CountScatter"      => 1,
             "WildColumIcon"     => "",
-            "MultipyScatter"    => 0,
+            "MultipyScatter"    => 1,
             "MultiplyCount"     => 2,
             "WinLogs" => [
                 "[BET] betLevel: 10, betSize:10, baseBet:20.00 => 2000",

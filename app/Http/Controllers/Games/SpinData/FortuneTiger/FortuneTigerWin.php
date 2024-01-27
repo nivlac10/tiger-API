@@ -18,6 +18,7 @@ class FortuneTigerWin
                 [
                     [
                         "index" => 4,
+                        "test" => "case 1",
                         "name" => "Symbol_6",
                         "combine" => 3,
                         "way_243" => 1,
@@ -49,11 +50,12 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_4",
+                        "test" => "case 2",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 10,
+                        "payout" => 8,
                         "multiply" => 0,
-                        "win_amount" => 4,
+                        "win_amount" => 1.6, //Show 6 which is wrong
                         "active_icon" => [
                             7,
                             5,
@@ -63,7 +65,7 @@ class FortuneTigerWin
                 ],
                 [],
                 2,
-                30
+                8
             ],
             [
                 [
@@ -74,11 +76,12 @@ class FortuneTigerWin
                     [
                         "index" => 3,
                         "name" => "Symbol_3",
+                        "test" => "case 3",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 15,
+                        "payout" => 10,
                         "multiply" => 0,
-                        "win_amount" => 4,
+                        "win_amount" => 2,
                         "active_icon" => [
                             7,
                             8,
@@ -88,7 +91,7 @@ class FortuneTigerWin
                 ],
                 [],
                 2,
-                15
+                10
             ],
             [
                 [
@@ -99,9 +102,10 @@ class FortuneTigerWin
                     [
                         "index" => 2,
                         "name" => "Symbol_3",
+                        "test" => "case 4",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 15,
+                        "payout" => 10,
                         "multiply" => 0,
                         "win_amount" => 4,
                         "active_icon" => [
@@ -113,7 +117,7 @@ class FortuneTigerWin
                 ],
                 [],
                 2,
-                15
+                10
             ],
             [
                 [
@@ -124,21 +128,22 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_2",
+                        "test" => "case 5",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 30,
+                        "payout" => 25,
                         "multiply" => 0,
-                        "win_amount" => 4,
+                        "win_amount" => 5, //changed from 4
                         "active_icon" => [
-                            1,
-                            2,
-                            3
+                            3,
+                            5,
+                            7
                         ]
                     ]
                 ],
                 [],
                 2,
-                30
+                25
             ],
             [
                 [
@@ -149,11 +154,12 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_6",
+                        "test" => "case 6",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 30,
+                        "payout" => 3,
                         "multiply" => 0,
-                        "win_amount" => 4,
+                        "win_amount" => 0.6,
                         "active_icon" => [
                             7,
                             5,
@@ -163,7 +169,7 @@ class FortuneTigerWin
                 ],
                 [],
                 2,
-                4
+                3
             ],
             [
                 [
@@ -174,11 +180,12 @@ class FortuneTigerWin
                     [
                         "index" => 3,
                         "name" => "Symbol_3",
+                        "test" => "case 7",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 15,
+                        "payout" => 10,
                         "multiply" => 0,
-                        "win_amount" => 9,
+                        "win_amount" => 2,
                         "active_icon" => [
                             7,
                             8,
@@ -188,7 +195,7 @@ class FortuneTigerWin
                 ],
                 [],
                 2,
-                15
+                10
             ],
             [
                 [
@@ -199,21 +206,50 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_2",
+                        "test" => "case 8",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 15,
+                        "payout" => 50,
                         "multiply" => 0,
                         "win_amount" => 9,
                         "active_icon" => [
-                            7,
-                            8,
-                            9
+                            3,
+                            5,
+                            7
                         ]
                     ]
                 ],
                 [],
                 6,
-                30
+                50
+            ],
+            [
+                [
+                    "Symbol_2", "Symbol_2", "Symbol_2", "Symbol_6", "Symbol_0", "Symbol_5", "Symbol_2", "Symbol_2", "Symbol_4"
+                ],
+                [1,2, 7, 5, 3],
+                [
+                    [
+                        "index" => 5,
+                        "name" => "Symbol_2",
+                        "test" => "case 8",
+                        "combine" => 3,
+                        "way_243" => 1,
+                        "payout" => 25,
+                        "multiply" => 0,
+                        "win_amount" => 9,
+                        "active_icon" => [
+                            1,
+                            2,
+                            3,
+                            5,
+                            7
+                        ]
+                    ]
+                ],
+                [],
+                6,
+                25
             ],
             [
                 [
@@ -224,6 +260,7 @@ class FortuneTigerWin
                     [
                         "index" => 1,
                         "name" => "Symbol_5",
+                        "test" => "case 9",
                         "combine" => 3,
                         "way_243" => 1,
                         "payout" => 5,
@@ -243,13 +280,14 @@ class FortuneTigerWin
             //SUPERMEGAWIN 1:50
             [
                 [
-                    "Symbol_2", "Symbol_0", "Symbol_3", "Symbol_4", "Symbol_0", "Symbol_5", "Symbol_6", "Symbol_1", "Symbol_0"
+                    "Symbol_0", "Symbol_0", "Symbol_3", "Symbol_4", "Symbol_0", "Symbol_5", "Symbol_6", "Symbol_1", "Symbol_0"
                 ],
                 [1, 5, 9],
                 [
                     [
                         "index" => 4,
                         "name" => "Symbol_2",
+                        "test" => "case 10",
                         "combine" => 3,
                         "way_243" => 1,
                         "payout" => 250,
@@ -269,13 +307,14 @@ class FortuneTigerWin
             //SUPERMEGAWIN 1:50
             [
                 [
-                    "Symbol_2", "Symbol_0", "Symbol_3", "Symbol_4", "Symbol_0", "Symbol_5", "Symbol_6", "Symbol_1", "Symbol_0"
+                    "Symbol_0", "Symbol_0", "Symbol_3", "Symbol_4", "Symbol_0", "Symbol_5", "Symbol_6", "Symbol_1", "Symbol_0"
                 ],
                 [1, 5, 9],
                 [
                     [
                         "index" => 4,
                         "name" => "Symbol_2",
+                        "test" => "case 11",
                         "combine" => 3,
                         "way_243" => 1,
                         "payout" => 250,
@@ -301,11 +340,12 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_5",
+                        "test" => "case 12",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 50,
+                        "payout" => 5,
                         "multiply" => 0,
-                        "win_amount" => 10,
+                        "win_amount" => 1,
                         "active_icon" => [
                             7,
                             5,
@@ -315,7 +355,7 @@ class FortuneTigerWin
                 ],
                 [],
                 0,
-                50
+                5
             ],
             [
                 [
@@ -327,9 +367,10 @@ class FortuneTigerWin
                     [
                         "index" => 1,
                         "name" => "Symbol_3",
+                        "test" => "case 13",
                         "combine" => 3,
                         "way_243" => 1,
-                        "payout" => 100,
+                        "payout" => 10,
                         "multiply" => 0,
                         "win_amount" => 50,
                         "active_icon" => [
@@ -341,11 +382,11 @@ class FortuneTigerWin
                 ],
                 [],
                 0,
-                100
+                10
             ],
             [
                 [
-                    "Symbol_4", "Symbol_1", "Symbol_3", "Symbol_6", "Symbol_0", "Symbol_5", "Symbol_3", "Symbol_1", "Symbol_5"
+                    "Symbol_4", "Symbol_3", "Symbol_1", "Symbol_6", "Symbol_0", "Symbol_5", "Symbol_1", "Symbol_2", "Symbol_5"
                 ],
                 [7, 5, 3],
                 //SUPERMEGAWIN 1:20 diferente
@@ -353,6 +394,7 @@ class FortuneTigerWin
                     [
                         "index" => 5,
                         "name" => "Symbol_3",
+                        "test" => "case 14",
                         "combine" => 3,
                         "way_243" => 1,
                         "payout" => 100,
